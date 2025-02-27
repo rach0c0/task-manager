@@ -1,18 +1,11 @@
-import {Routes} from 'react-router-dom'
 
-function Nav () {
+
+function Note () {
     return (
         <main>
-                <BrowserRouter>
-                  <Routes>
-                    <Route path="/" element={<App />} >📔</Route>
-                    <Route path="/about" element={<About />} >About</Route>
-                  </Routes>
-                </BrowserRouter>
-            
-                <h1>Dear human, you have been slacking. I have created this Task Manager to make things simpilar for you. Use it. -sincerly 🐾</h1>
+            <h1>dear human, <br/> you have been slacking. i created task manager to make things simpile for you. use it. <br/> -serious 🐾</h1>
         </main>
     )
 }
 
-export default Nav
+export default Note

@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
+import {Link} from 'react-router-dom'
 import './App.css'
 import CreateList from './components/TaskList.jsx'
 import Input from './components/TaskInput.jsx'
-import Nav from './components/Header.jsx'
+import Note from './components/Header.jsx'
 
 function App() {
  
@@ -51,8 +52,11 @@ function App() {
 
   return (
     <main>
-      
-      <h1>Task Manager</h1>
+      <nav>
+        <Link to="/About">About</Link>
+      </nav>
+      <Note/>
+      <h1>task manager</h1>
 
       <CreateList tasks={tasks} toggleComplete={toggleComplete} deleteTask={deleteTask} editTask={editTask}/>
       <Input addTasks={addTask} />
