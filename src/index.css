@@ -1,10 +1,53 @@
+@-ms-viewport{ width: device-width; }
+/*mobile ------------------------- */
+@media (max-width: 668px) {
+ :root {
+  font-size: large;
+ }
+ h2 {
+  font-size: 1.2em;
+ }
+ button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: .7em;
+ }
+ input {
+  max-width: 15vw;
+}
+}
+
+/*med-large screens ---------------*/
+@media (min-width: 669px) {
+ :root {
+  font-size: 1.5em;
+ }
+ h1 {
+  font-size: 1.7em;
+ }
+ h1 {
+  font-size: 2.7em;
+ }
+ h2 {
+  font-size: 2em;
+ }
+ button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+ }
+ input {
+  width: 30vw;
+}
+}
+
+/*Shared Styles ------------------*/
 :root {
   display: flex;
 
   font-family: "Patrick Hand", cursive;;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 1.5em;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -38,13 +81,11 @@ body {
 }
 
 h1 {
-  font-size: 2.7em;
   line-height: 1.1;
   padding-left: 4vw ;
 }
 
 h2 {
-  font-size: 2em;
   padding-left: 4vw ;
 }
 
@@ -56,10 +97,7 @@ ul, li {
 
 button {
   align-self:flex-end;
-  border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
   font-weight: 500;
   font-family: cursive;
   background-color: #1a1a1a;
@@ -77,7 +115,6 @@ button:focus-visible {
 
 input {
   align-self: flex-end;
-  width: 30vw;
 }
 
 @media (prefers-color-scheme: light) {

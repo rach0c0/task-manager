@@ -1,3 +1,25 @@
+@-ms-viewport{ width: device-width; }
+/*mobile --------- */
+@media (max-width: 668px) {
+  .headNote {
+    width: 220px;
+  }
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 669px){
+  .headNote {
+    width: 575px;
+  }
+  .listContainer {
+    display: flex;
+    align-items: center;
+  }
+}
 #root {
   margin: 0;
 }
@@ -11,10 +33,6 @@ nav {
   padding: 2vw 4vw 2vw 2vw;
 }
 
-.listContainer {
-  display: flex;
-  align-items: center;
-}
 
 /*
 .logo {
