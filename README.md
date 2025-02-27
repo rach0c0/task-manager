@@ -49,7 +49,7 @@ Visit `http://localhost:3000/`
 5. Navigate to `/about` to read a *very important* message from a cat. 😹  
 
 ### 🛠 **Future Enhancements**  
-🔹 Add due dates for tasks  
+🔹 Add "last completed" reminder  
 🔹 Implement drag-and-drop reordering  
 🔹 Add dark mode 🌙  
 
