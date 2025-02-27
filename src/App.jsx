@@ -55,12 +55,14 @@ function App() {
       <nav>
         <Link to="/About">About</Link>
       </nav>
-      <Note/>
-      <h1>task manager</h1>
-
-      <CreateList tasks={tasks} toggleComplete={toggleComplete} deleteTask={deleteTask} editTask={editTask}/>
-      <Input addTasks={addTask} />
-      
+      <div className='homeContent'>
+        <Note/>
+        <h1>Task Manager 3000</h1>
+        <div className='listContainer'>
+          <CreateList tasks={tasks} toggleComplete={toggleComplete} deleteTask={deleteTask} editTask={editTask}/>
+          <Input addTasks={addTask} />
+        </div>
+      </div>
     </main>
   )
 }

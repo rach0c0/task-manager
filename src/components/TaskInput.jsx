@@ -14,7 +14,7 @@ function Input({addTasks}) {
       return (
         <form onSubmit={onSubmit}> 
             <input type='text' placeholder='Enter task here ... ' value={taskText} onChange={(e) => setInput(e.target.value)}></input>
-            <button type='submit' onClick={() => console.log(`"${taskText}" added`)}>Add Task</button>
+            <button type='submit' onClick={() => console.log(`"${taskText}" added`)}>Add Task 🐾</button>
         </form>
 
       )

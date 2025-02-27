@@ -1,12 +1,22 @@
-/*
-* {
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
+#root {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(89, 65, 110);
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2vw 4vw 2vw 2vw;
+}
+
+.listContainer {
+  display: flex;
   align-items: center;
 }
 
-
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
