@@ -15,7 +15,7 @@ function CreateList({tasks, toggleComplete, deleteTask, editTask}) {
                 deleteTask={deleteTask} 
                 editTask={editTask}/>
             )) ) : (
-            <li>No tasks yet. Add one Below!</li>
+            <li className='holder'>No tasks yet. Add one now!</li>
             )}
         </ul>
     )
